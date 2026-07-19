@@ -39,9 +39,14 @@ nav ul .btn{
     margin-left: 346px;
     font-weight: 600px;
     font-size: 16px;
+    cursor: pointer;
+}
+nav ul .btn:hover{
+    background-color: aqua;
 }
 
 #banner{
+    margin: 0 auto;
     max-width: 1600px;
     text-align: center; 
     background: url(../assets/hero-bg.png);
@@ -57,6 +62,10 @@ nav ul .btn{
     border: none;
     margin-top: 115.5px;
     margin-bottom: 16px;
+    cursor: pointer;
+}
+#banner .banner-container #btn1:hover{
+    color: aqua;
 }
 #banner .banner-container h1{
     font-size: 72px;
@@ -84,6 +93,10 @@ nav ul .btn{
     font-weight: 600px;
     font-size: 16px;
     margin-right: 16px;
+    cursor: pointer;
+}
+#btn2:hover{
+    color: aqua;
 }
 #btn3{
     background-color: transparent;
@@ -94,6 +107,10 @@ nav ul .btn{
     font-weight: 600px;
     font-size: 16px;
     margin-bottom: 175px;
+    cursor: pointer;
+}
+#btn3:hover{
+    color: aqua;
 }
 #notes{
     text-align: center;
@@ -143,4 +160,55 @@ nav ul .btn{
     background-color: #F95555;
     padding: 14px;
     border-radius: 50%;
+}
+
+#second-brain{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+#second-brain .second-brain-container {
+    display: flex;
+    padding: 120px;
+    gap: 60px;
+    align-items: center;
+}
+.sb-img{
+    height: 600px;
+    width: 600px;
+}
+.sb-content{
+    padding: 102px 0 102px;
+    max-width: 750px;
+}
+.sb-content h6{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.sb-content h3{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 100%;
+}
+.sb-content #sb-p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 16px;
+}
+.line-container{
+    margin-top: 40px;
+}
+.line-container .line{
+    display: flex;
+    gap: 6px;
+    color: #001931;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500px;
 }
