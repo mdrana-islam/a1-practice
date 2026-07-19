@@ -212,3 +212,32 @@ nav ul .btn:hover{
     line-height: 20px;
     font-weight: 500px;
 }
+
+footer{
+    background-color: #001931;
+    
+}
+footer .f-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px 120px 40px;
+    text-align: center;
+}
+footer .f-container .f-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .f-container .f-content .f-social{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+}
+.f-copyright{
+    margin-top: 80px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
